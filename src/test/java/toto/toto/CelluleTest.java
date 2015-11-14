@@ -19,4 +19,18 @@ public class CelluleTest {
 		Assert.assertTrue(cellule.estVivante());
 	}
 
+	@Test
+	public void doit_mourir_si_superieur_3() throws Exception {
+		Cellule cellule = new Cellule();
+
+		Assert.assertTrue(cellule.estMorte());
+	}
+
+	@Test
+	public void doit_revivre_si_egale_3() throws Exception {
+		Cellule cellule = new Cellule();
+
+		Assert.assertTrue(cellule.estVivante());
+	}
+
 }
