@@ -6,4 +6,8 @@ public class Cellule {
 		return true;
 	}
 
+	public boolean estVivante() {
+		return true;
+	}
+
 }

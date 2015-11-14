@@ -12,4 +12,11 @@ public class CelluleTest {
 		Assert.assertTrue(cellule.estMorte());
 	}
 
+	@Test
+	public void doit_vivre_si_2_ou_3() throws Exception {
+		Cellule cellule = new Cellule();
+
+		Assert.assertTrue(cellule.estVivante());
+	}
+
 }
